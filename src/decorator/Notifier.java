@@ -1,4 +1,7 @@
 package decorator;
 
-public class Notifier {
+public interface Notifier {
+
+    void send(String msg);
+    String getUserName();
 }
